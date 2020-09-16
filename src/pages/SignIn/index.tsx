@@ -37,7 +37,7 @@ interface SignFormData {
   password: string;
 }
 
-const SignIn: React.FC = () => {
+const SignIn = () => {
   const formRef = useRef<FormHandles>(null);
   const passwordInputRef = useRef<TextInput>(null);
 

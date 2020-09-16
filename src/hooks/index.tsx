@@ -2,7 +2,11 @@ import React from 'react';
 
 import { AuthProvider } from './auth';
 
-const AppProvider: React.FC = ({ children }) => {
+interface IAppProvider {
+  children: React.ReactNode;
+}
+
+const AppProvider = ({ children }: IAppProvider) => {
   return <AuthProvider>{children}</AuthProvider>;
 };
 

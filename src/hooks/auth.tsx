@@ -27,7 +27,11 @@ interface AuthContextData {
 
 const AuthContext = createContext<AuthContextData>({} as AuthContextData);
 
-const AuthProvider: React.FC = ({ children }) => {
+interface IAuthProvider {
+  children: React.ReactNode;
+}
+
+const AuthProvider = ({ children }: IAuthProvider) => {
   const [data, setData] = useState<AuthState>({} as AuthState);
   const [loading, setLoading] = useState(true);
 

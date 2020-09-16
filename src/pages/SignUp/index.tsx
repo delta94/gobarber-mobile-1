@@ -32,7 +32,7 @@ interface SignUpFormData {
   password: string;
 }
 
-const SignUp: React.FC = () => {
+const SignUp = () => {
   const formRef = useRef<FormHandles>(null);
   const navigation = useNavigation();
 
