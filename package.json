@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "tcp:3333 && react-native run-android",
+    "android": "react-native run-android && adb reverse tcp:3333 tcp:3333",
     "ios": "react-native run-ios",
-    "start": "adb reverse tcp:3333 && react-native start",
+    "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
@@ -20,6 +20,7 @@
     "react": "16.13.1",
     "react-native": "0.63.2",
     "react-native-gesture-handler": "^1.7.0",
+    "react-native-image-picker": "^2.3.4",
     "react-native-iphone-x-helper": "^1.2.1",
     "react-native-reanimated": "^1.13.0",
     "react-native-safe-area-context": "^3.1.4",
