@@ -2,6 +2,7 @@
 
 <img src="https://github.com/vbeloti/gobarber-mobile/blob/master/.github/gobarber-1.jpg?raw=true" alt="GoBarber" />
 <img src="https://github.com/vbeloti/gobarber-mobile/blob/master/.github/gobarber-2.jpg?raw=true" alt="GoBarber" />
+<img src="https://github.com/vbeloti/gobarber-mobile/blob/master/.github/gobarber-3.jpg?raw=true" alt="GoBarber" />
 
 In the project directory, you can run:
 
